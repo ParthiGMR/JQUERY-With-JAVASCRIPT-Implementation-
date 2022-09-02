@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#but1").click(function(){
+				$("img").fadeIn(4000);
+			});
+			$("#but2").click(function(){
+				$("img").fadeOut(4000);
+			});
+			$("#but3").click(function(){
+				$("img").fadeToggle(4000);
+			});
+		});
+	</script>
+</head>
+<body>
+<center><img src="C:\Users\parth\Downloads\20210717_190101-01 (1).jpeg" width="500px"></center>
+<button id="but1">Fade In</button>
+<button id="but2">Fade Out</button>
+<button id="but3">Fade Toggle</button>
+</body>
+</html>
